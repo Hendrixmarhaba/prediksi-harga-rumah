@@ -19,7 +19,7 @@ data = {
     'luas_bangunan': [80, 120, 160, 200, 240],
     'jumlah_kamar': [3, 4, 4, 5, 6],
     'jarak_pusat_kota': [10, 8, 6, 4, 2],
-    'harga': [500.000.000, 700.000.000, 900.000.000, 1.100.000.000, 1.300.000.000]
+    'harga': [500, 700, 900, 1100, 1300]  # juta rupiah
 }
 df = pd.DataFrame(data)
 
@@ -38,4 +38,5 @@ st.subheader("💰 Hasil Prediksi")
 st.write(f"Perkiraan harga rumah: **Rp {prediksi:.2f} juta**")
 
 st.caption("Model ini hanya contoh sederhana berbasis Linear Regression.")
+
 
